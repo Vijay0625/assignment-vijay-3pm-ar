@@ -1,3 +1,4 @@
+<!-- html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
     <title>table and form</title>
 </head>
 <body>
+    <!-- table -->
     <table border="1"  cellpadding="5" cellspacing="0">
 <tr>
     <th rowspan="2">Path</th>
@@ -18,7 +20,8 @@
     <td>This page is used to display the fifth item in a series of items.</td>
 </tr>
 </table><br><br>
-<form action="" method="">
+<!-- form -->
+<form action="https://formspree.io/f/xwpqwvaq" method="POST">
 <label for="inputField">name:</label>
 <input type="text" name="inputField" id="in1" placeholder="enter your name">
 <label for="inputField2">email:</label>
@@ -56,8 +59,39 @@
     <label for="radio4">others</label>
     <input type="radio" name="radio1" id="in11" value="others">
 </fieldset>
+<input type="date" name="date" id="in12" required>
+<input type="datetime-local" name="datetime" id="in13" required>
+<input type="number" name="number" id="in14" min="1" max="100" step="2">
+</form>    
+<!-- iframe -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rj5YkVwxuw0?si=K1Z-xsdGwiIrUqoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.chennaiproperties.in/blog/dac-developers"  width="100%" height="100%"></iframe>
+<!-- video -->
+<video controls>
+<source src="../Thangalaan VFX Secrets ｜ Full Breakdown & Behind-the-Scenes Footage.mp4" type="video/mp4"></video>
+<!-- audio -->
+<audio controls>
+    <source src="../Monica - Coolie - MassTamilan.mp3" type="audio/mpeg">
+</audio>
+<!-- semantic elements  is used to decide the layout for entire web page-->
+<header></header>
+<nav></nav>
+<section>
+    <article>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, consequuntur.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </article>
+</section><aside></aside>
+<main>
+<article>
+    <h1>Welcome to the Page</h1>
+    <p>This is a sample article to demonstrate the use of semantic HTML elements.</p>
+    <p>Feel free to explore the features and functionalities provided in this example.</p>
+</article>
+</main>
+<footer>
+    <p>© 2023 Your Company Name. All rights reserved.</p>
+</footer>
 
-</form>
-    
 </body>
 </html>
